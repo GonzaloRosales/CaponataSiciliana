@@ -100,11 +100,23 @@ aside{
   display: flex;
 justify-content:space-around;
 align-items: center;
-
-
-
 }
 
+.kiwilimon:hover{
+  transform: scale(1.5);
+}
+
+.paulina:hover{
+  transform: scale(1.5);
+ }
+
+ .cocineros:hover{
+   transform: scale(1.5);
+  }
+
+  .recetagratis:hover{
+    transform: scale(1.5);
+   }
 
 .contenido { width: 700px;
 margin:0 auto;
@@ -143,10 +155,71 @@ section article:hover {box-shadow: 0 0.1rem 0.4rem rgba(0,0,0.3)}
 
   .mapa{ margin: 0rem 5rem;
    display: flex;
+}
+
+.formulario{
+  background-color: #C22626;
+  padding: 25px;
+  border: 2px solid #5E110B;
+  border-radius: 10px;
+  color:white;
+  margin:15px;
+  width: 500px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+flex-direction: column;
+}
+
+.formulario:hover{
+  box-shadow: 0 0.1rem 0.4rem rgba(0,0,0.3);
+  transition: 0.35s;
+
+}
+
+ .controls{
+
+   border: 1px solid black;
+   margin: 7px;
+ }
+
+.controls:hover{
+  background: black;
+  color:white;
+  transform: scale(1.03);
+  transition: 0.20s;
+}
+
+.formulario h4{
+  text-align:center;
+  font-size: 19px;
+  border-bottom: 1px solid white;
+}
 
 
-  }
+ .buttom{
+   width: 50%;
+   height: 40px;
+   margin:6px;
+   background-color: black;
+   color:white;
+   border:1px solid white;
+   border-radius: 10px;
+   align-self: center;
+ }
+
+ .buttom:hover{
+   color:yellow;
+   transform: scale(1.1);
+   transition: 0.35s;
+   cursor: pointer;
+
+
+ }
+
   footer{ background-color:#C22626;
+
 margin: 0 auto;
 padding: 3rem;
 display: flex;
