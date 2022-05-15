@@ -130,6 +130,11 @@ flex-direction: column;
 font-size: 20px
 }
 
+ul li::marker {
+  color:#C22626;
+
+}
+
 section article h3 { text-align: center;}
 
 section article ul, section article ol { margin: 0.5rem 5rem}
